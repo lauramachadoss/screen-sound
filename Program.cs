@@ -1,20 +1,33 @@
-﻿Album albumHarry = new Album();
-albumHarry.Nome = "Harry`s House";
+﻿Autor harrystyles = new Autor("Harry Styles");
 
-Musica musica1 = new Musica();
-musica1.Nome = "Matilda";
-musica1.Duração = 245;
+Album albumHarry = new Album("Harry`s House");
 
-Musica musica2 = new Musica();
-musica2.Nome = "As It Was";
-musica2.Duração = 166;
+Musica musica1 = new(harrystyles, "Matilda") { Duração = 245 };
 
-Musica musica3 = new Musica();
-musica3.Nome = "Little Freak";
-musica3.Duração = 201;
+Musica musica2 = new(harrystyles, "As It Was") { Duração = 166 };
+
+Musica musica3 = new(harrystyles, "Little Freak") { Duração = 201, };
 
 albumHarry.AdicionarMusica(musica1);
 albumHarry.AdicionarMusica(musica2);
 albumHarry.AdicionarMusica(musica3);
 
-albumHarry.ExibirDiscografia();
+harrystyles.AdicionarAlbum(albumHarry);
+harrystyles.ExibirDiscografia();
+Console.WriteLine("\n");
+
+Host laumachado = new Host("Laura Mchado");
+
+Podcast crisesja = new Podcast("Crises de uma recém Jovem Adulta!\n", laumachado);
+
+Episodio ep1 = new(1, "Vida pos Ensino Médio", 52);
+ep1.AdicionarConvidado("Clara Rodrigues");
+
+Episodio ep2 = new(2, "Surpresa: sou a Responsabilidade", 78);
+ep2.AdicionarConvidado("Ana Júlia Garcia");
+
+
+
+
+
+

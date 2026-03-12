@@ -1,0 +1,15 @@
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\bin\Debug\net10.0\screen-sound.exe
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\bin\Debug\net10.0\screen-sound.deps.json
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\bin\Debug\net10.0\screen-sound.runtimeconfig.json
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\bin\Debug\net10.0\screen-sound.dll
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\bin\Debug\net10.0\screen-sound.pdb
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\obj\Debug\net10.0\screen-sound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\obj\Debug\net10.0\screen-sound.AssemblyInfoInputs.cache
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\obj\Debug\net10.0\screen-sound.AssemblyInfo.cs
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\obj\Debug\net10.0\screen-sound.csproj.CoreCompileInputs.cache
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\obj\Debug\net10.0\screen-sound.sourcelink.json
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\obj\Debug\net10.0\screen-sound.dll
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\obj\Debug\net10.0\refint\screen-sound.dll
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\obj\Debug\net10.0\screen-sound.pdb
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\obj\Debug\net10.0\screen-sound.genruntimeconfig.cache
+C:\Users\mauro\Desktop\Laura Stuff\Alura\sreensound\screen-sound\obj\Debug\net10.0\ref\screen-sound.dll

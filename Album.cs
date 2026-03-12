@@ -1,7 +1,12 @@
 class Album
 {
+    public Album(string nome)
+    {
+        Nome = nome;
+    }
+
     private List<Musica> musicas = new List<Musica>();
-    public string Nome { get; set;} = "";
+    public string Nome { get; } 
     public int DuraçãoTotal => musicas.Sum(m => m.Duração);
 
     public void AdicionarMusica(Musica musica)
@@ -9,13 +14,13 @@ class Album
         musicas.Add(musica);
     }
 
-    public void ExibirDiscografia()
+    public void ExibirMusicasAlbum()
     {
         Console.WriteLine($"Lista de músicas do álbum {Nome}:\n");
         foreach (var musica in musicas)
         {
             Console.WriteLine($"Música: {musica.Nome}");
         }
-        Console.WriteLine($"Esse álbum tema duração de: {DuraçãoTotal} segundos");
+        Console.WriteLine($"Esse álbum tem a duração de: {DuraçãoTotal} segundos");
     }
 }
